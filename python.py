@@ -280,6 +280,8 @@
 #             return "1000 o'quvchi"
 #         elif self.name == "amaliy":
 #             return "1500 o'qvchi"
+
+
 #         elif self.name == "tatu":
 #             return "2000 o'quvchi"
 # natija = univer("pdp")
