@@ -25,7 +25,6 @@
 
 # words=["Hi", "Mother", "Father"]
 # print("Brother".join(words))
-# s = "salom"
 # print(len(s))
 
 # age = 18
@@ -190,3 +189,128 @@
 # talaba = student ('mirjalol',100)
 # print(talaba.bahosi())
 
+
+# class player:
+#     def __init__(self,name,age,position):
+#         self.name = name 
+#         self.age = age
+#         self.position = position
+
+#     def cost(self):
+#         if self.position == "struker":
+#             return 90000
+#         elif self.position == "midle":
+#             return 20000
+#         else:
+#             return 10000
+        
+# b = player("Mirjalol",18,"struker")
+# print(b.cost())
+
+# class Yukmashinaasi:
+#     def __init__(self,yuk,km,yuk_narx,narx_km):
+#         self.yuk = yuk
+#         self.km = km
+#         self.yuk_narx = yuk_narx
+#         self.narx_km = narx_km
+        
+        
+#     def umimiy(self):
+#         y = self.yuk * self.yuk_narx
+#         k = self.km * self.narx_km
+#         return k + y 
+    
+# som = Yukmashinaasi (10,100,100,10)
+# print(f"Yetkazib berish narxi {som.umimiy()} dollor narxi")
+
+# def qoshish(a , b):
+#     natija = a + b
+#     return natija
+
+# m = qoshish(2,6)
+# print(m)
+
+# def son ( f ,d ):
+#     natija = f + d
+#     return natija
+# javob = son(1,99)
+# print(javob)
+
+# class Telefon:
+#     def __init__(self,model,ram,xotira):
+#         self.model = model
+#         self.ram = ram 
+#         self.xotira = xotira
+        
+#     def get_info(self):
+#         return f'nomi {self.model} {self.ram} ram {self.xotira} xotira'
+
+# telfon = Telefon ("17 pro max",32,"1 TB")
+# print(telfon.get_info())
+
+
+# class yuk:
+#     def __init__(self,km,kg):
+#         self.km = km
+#         self.kg = kg
+#     def info(self):
+#         return (self.km * 1000) + (self.kg * 1000)
+        
+# natija = yuk(10,20)
+# print("yetkazib berish narxi", natija.info(), "so'm")
+
+
+# list = [1,2,3,4,5,55]
+
+# eng_katta = list[0]
+
+# for son in list:
+#     if son > eng_katta:
+#         eng_katta = son
+# print("eng katta", eng_katta,"son")
+
+
+
+# class univer:
+#     def __init__(self,name):
+#         self.name = name
+        
+#     def son(self):
+#         if self.name == "pdp":
+#             return "1000 o'quvchi"
+#         elif self.name == "amaliy":
+#             return "1500 o'qvchi"
+#         elif self.name == "tatu":
+#             return "2000 o'quvchi"
+# natija = univer("pdp")
+# print(natija.son())
+
+
+# class univer:
+#     def __init__(self,name):
+#         self.name = name 
+#     def son(self):
+#         if self.name == "pdp":
+#             return "3500 o'quvchi"
+#         elif self.name == "tatu":
+#             return "4000 o'quvchi"
+# natija = univer("pdp")
+# print(natija.son(),"bor")
+
+
+
+class univer:
+    def __init__(self,name):
+        self.name = name 
+
+    def son(self):
+        if self.name == "PDP":
+            return "4000 talaba"
+        elif self.name == "TATU":
+            return "5000 talaba"
+        elif self.name == "UBS":
+            return "3000 talaba"
+        else:
+            return "xato name"
+natija = univer("PDP")
+print(natija.son())
