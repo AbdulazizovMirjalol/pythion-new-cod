@@ -236,6 +236,7 @@
 # javob = son(1,99)
 # print(javob)
 
+
 # class Telefon:
 #     def __init__(self,model,ram,xotira):
 #         self.model = model
