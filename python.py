@@ -303,18 +303,30 @@
 
 
 
-class univer:
-    def __init__(self,name):
-        self.name = name 
+# class univer:
+#     def __init__(self,name):
+#         self.name = name 
 
-    def son(self):
-        if self.name == "PDP":
-            return "4000 talaba"
-        elif self.name == "TATU":
-            return "5000 talaba"
-        elif self.name == "UBS":
-            return "3000 talaba"
-        else:
-            return "xato name"
-natija = univer("PDP")
-print(natija.son())
+#     def son(self):
+#         if self.name == "PDP":
+#             return "4000 talaba"
+#         elif self.name == "TATU":
+#             return "5000 talaba"
+#         elif self.name == "UBS":
+#             return "3000 talaba"
+#         else:
+#             return "xato name"
+# natija = univer("PDP")
+# print(natija.son())
+
+
+class yuk:
+    def __init__(self,kg,km):
+        self.km = km
+        self.kg = kg
+
+    def result(self):
+        return (self.km * 1000) + (self.kg * 4000) 
+
+answer = yuk(100,300)        
+print("Ydtkazib beish narxi" , answer.result(), "so'm")
